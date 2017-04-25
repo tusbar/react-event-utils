@@ -1,0 +1,30 @@
+{
+  "name": "react-event-utils",
+  "version": "1.0.0",
+  "description": "Shorthand utils for dealing with React events",
+  "main": "lib/index.js",
+  "repository": "git@github.com:tusbar/react-event-utils.git",
+  "author": "Bertrand Marron <bertrand.marron@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^19.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jest": "^19.0.1",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "jest": "^19.0.2"
+  },
+  "scripts": {
+    "transpile": "babel src --out-dir lib",
+    "lint": "eslint src",
+    "jest": "jest",
+    "test": "yarn lint && yarn transpile && yarn jest",
+    "prepublish": "yarn test"
+  }
+}
