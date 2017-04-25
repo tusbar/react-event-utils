@@ -1,5 +1,7 @@
 # react-event-utils
 
+[![Build Status](https://travis-ci.org/tusbar/react-event-utils.svg?branch=master)](https://travis-ci.org/tusbar/react-event-utils)
+
 > Shorthand utils for dealing with React events
 
 # Install
