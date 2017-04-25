@@ -1,6 +1,6 @@
 {
   "name": "react-event-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shorthand utils for dealing with React events",
   "main": "lib/index.js",
   "repository": "git@github.com:tusbar/react-event-utils.git",
